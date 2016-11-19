@@ -3,7 +3,7 @@
 namespace m7vm7v\land\Middleware;
 
 use Closure;
-use App\UserFingerprint;
+use m7vm7v\land\Models\UserFingerprint;
 
 class CheckUserFingerprint
 {

@@ -4,10 +4,10 @@ namespace m7vm7v\land\Traits\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\EmailLogin;
+use m7vm7v\land\Models\EmailLogin;
 use Illuminate\Support\Facades\Mail;
 use App\User;
-use App\Security;
+use m7vm7v\land\Models\Security;
 
 trait AuthenticatesUsers {
 

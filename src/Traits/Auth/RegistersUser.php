@@ -5,8 +5,8 @@ namespace m7vm7v\land\Traits\Auth;
 use App\User;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Cache;
-use App\UserFingerprint;
-use App\Security;
+use m7vm7v\land\Models\UserFingerprint;
+use mv7m7v\land\Models\Security;
 
 trait RegistersUser {
 

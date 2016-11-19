@@ -3,7 +3,7 @@
 namespace m7vm7v\land\Traits\User;
 
 use App\User;
-use App\Security;
+use m7vm7v\land\Models\Security;
 
 trait Securable {
 

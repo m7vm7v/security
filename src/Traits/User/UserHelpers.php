@@ -3,6 +3,7 @@
 namespace m7vm7v\land\Traits\User;
 
 use App\User;
+use mv7m7v\land\Models\UserFingerprint;
 
 trait UserHelpers {
 
@@ -47,5 +48,15 @@ trait UserHelpers {
         }
         
         return $user;
+    }
+	
+	/**
+     * A user has one Fingerprint
+     * 
+     * @return UserFingerprint
+     */
+    public function fingerprint() {
+        
+        return UserFingerprint::where('user_id', $this->id)->firstOrFail();
     }
 }

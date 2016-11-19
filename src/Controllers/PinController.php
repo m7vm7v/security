@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Validator;
 use Illuminate\Support\Facades\Hash;
 use \m7vm7v\land\Traits\ThrottlesPins;
+use \m7vm7v\land\Models\UserFingerprint;
 
 class PinController extends Controller {
 
