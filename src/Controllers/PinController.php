@@ -7,11 +7,11 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Validator;
 use Illuminate\Support\Facades\Hash;
-use App\UserFingerprint;
+use \m7vm7v\land\Traits\ThrottlesPins;
 
 class PinController extends Controller {
 
-    use \App\Http\Traits\ThrottlesPins;
+    use ThrottlesPins;
 
     /**
      * Create a new controller instance.
