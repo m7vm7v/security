@@ -1,0 +1,26 @@
+{
+    "name": "m7vm7v/land",
+    "description": "Security, PIN, Email Verification",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin",
+            "email": "m7vm7v@abv.bg"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "torann/geoip": "^1.0",
+        "jenssegers/agent": "^2.3",
+        "spatie/laravel-activitylog": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "m7vm7v\\land\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    }
+}
