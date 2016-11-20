@@ -1,5 +1,7 @@
 #Description
 
+composer require m7vm7v/land:dev-master
+
 App\Controllers\Auth\RegisterController.php
 delete validator & create, change the following
 use m7vm7v\land\Traits\Auth\RegistersUser;

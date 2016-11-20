@@ -1,6 +1,6 @@
 <?php
 
-namespace mv7m7v\land\Models;
+namespace m7vm7v\land\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\User;

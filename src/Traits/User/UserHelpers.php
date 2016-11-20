@@ -3,7 +3,8 @@
 namespace m7vm7v\land\Traits\User;
 
 use App\User;
-use mv7m7v\land\Models\UserFingerprint;
+use m7vm7v\land\Models\UserFingerprint;
+use m7vm7v\land\Exceptions\NoFoundUser;
 
 trait UserHelpers {
 
