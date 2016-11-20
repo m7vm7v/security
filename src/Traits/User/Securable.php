@@ -9,7 +9,7 @@ trait Securable {
 
     public function security() {
 
-        return current(User::hasOne('App\Security')->get()->toArray());
+        return current(User::hasOne(Security::class)->get()->toArray());
     }
 
     public function needsToProvidePassword() {
